@@ -1,7 +1,7 @@
 {{>part}}
 <form action="/add" method="post" class="form-container">
     <div class="form-row">
-        <input style="border-radius: 5px" type="text" name="FIO" placeholder="FIO" required>
+        <input style="border-radius: 5px" type="text" name="FIO" placeholder="FIO" maxlength="20" required>
         <input style="border-radius: 5px" type="text" name="number" placeholder="number" pattern="[0-9]{7}" required>
     </div>
     <div class="form-row" style="align-items: center; display: flex; justify-content: center    ">

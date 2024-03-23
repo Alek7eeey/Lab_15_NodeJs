@@ -1,20 +1,20 @@
-
-<h1>{{title}}</h1>
+<h1 style="opacity: 0.4">{{title}}</h1>
 
 {{#if click}}
     <div id="container">
         {{#each list}}
             <div>
-                <a href="/update?FIO={{FIO}}">FIO: {{FIO}}  Number:{{number}}</a>
+                <a href="/update?FIO={{FIO}}">name: {{FIO}}  number:{{number}}</a>
                 </br>
             </div>
         {{/each}}
     </div>
+
 {{else}}
     <div id="container">
         {{#each list}}
-            <div>
-                <a>FIO: {{FIO}}  Number:{{number}}</a>
+            <div style="cursor: not-allowed">
+                <a>name: {{FIO}}  number:{{number}}</a>
                 </br>
             </div>
         {{/each}}
