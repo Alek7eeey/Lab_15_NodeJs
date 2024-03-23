@@ -1,19 +1,12 @@
-/*div{
-    background-color: lightgrey; 
-    margin:5px; 
-    padding: 15px; 
-    width: 20%; 
-    border: 3px solid black; 
-    border-radius:10px;
-}*/
 a {
     text-decoration: none; /* Убираем стиль подчеркивания */
+    font-family: "Candara Light", serif;
     color: black; /* Наследуем цвет текста от родительского элемента */
 }
 #button,input #button,button, div #button{
     padding: 5px;
-    background-color: rgb(194, 188, 188);
-    margin:5px; 
+    background-color: burlywood;
+    margin:5px;
     width: 100px;
     border-radius:15px;
 }
@@ -58,7 +51,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center; /* Для центрирования текста внутри элементов */
+    text-align: center;
+    font-family: "Candara Light", serif;
+    background-color: bisque;
 }
 .form-container {
     display: flex;

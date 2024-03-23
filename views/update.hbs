@@ -1,10 +1,10 @@
 {{>part}}
 <form action="/update" method="post">
-    <input type="text" name="FIO" id="FIO" value="{{FIO}}" onchange="Change()" required>
-    <input type="text" name="number" id="number" value="{{number}}" onchange="Change()" pattern="[0-9]{7}" required >
-    <input type="hidden" name="hiddenNumber" id="hiddenNumber" value="{{number}}">
+    <input style="border-radius: 5px" type="text" name="FIO" id="FIO" value="{{FIO}}" onchange="Change()" required>
+    <input style="border-radius: 5px" type="text" name="number" id="number" value="{{number}}" onchange="Change()" pattern="[0-9]{7}" required >
+    <input type="hidden" style="border-radius: 5px" name="hiddenNumber" id="hiddenNumber" value="{{number}}">
     </br>
-    <input id="button" type="submit" value="update">
+    <input id="button" style="border-radius: 5px" type="submit" value="update">
 </form>
 <button  id="Delete" onclick="Delete()">delete</button>
 

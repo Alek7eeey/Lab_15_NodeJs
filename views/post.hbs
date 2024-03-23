@@ -1,13 +1,14 @@
 {{>part}}
 <form action="/add" method="post" class="form-container">
     <div class="form-row">
-        <input type="text" name="FIO" placeholder="FIO" required>
-        <input type="text" name="number" placeholder="number" pattern="[0-9]{7}" required>
+        <input style="border-radius: 5px" type="text" name="FIO" placeholder="FIO" required>
+        <input style="border-radius: 5px" type="text" name="number" placeholder="number" pattern="[0-9]{7}" required>
     </div>
-    <div class="form-row">
+    <div class="form-row" style="align-items: center; display: flex; justify-content: center    ">
         <input type="submit" id="button" value="send">
+        <div id="button">
+            {{#back}}{{/back}}
+        </div>
+
     </div>
 </form>
-<div id="button">
-    {{#back}}{{/back}}
-</div>
